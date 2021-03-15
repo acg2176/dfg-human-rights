@@ -17,8 +17,6 @@ Preprocessing:
 
 Proxy statements were parsed by paragraph, removing all excerpts shorter than 300 characters and duplicate paragraphs.
 
-Notebook: ```parse_is.py```
-
 Word2Vec was used to train word embeddings on the dataset. Embeddings were used to create 300-dimensional vectors for each word. The vectors were averaged for each word in the excerpt to create a single representation for each excerpt.
 
 Methods:
